@@ -1,0 +1,141 @@
+{
+  "nav": {
+    "home": "Beranda",
+    "programs": "Program",
+    "about": "Tentang",
+    "tuition": "Biaya",
+    "contact": "Kontak",
+    "bookTour": "Jadwalkan Kunjungan"
+  },
+  "hero": {
+    "badge": "• Pendaftaran telah Dibuka",
+    "titleLine1": "Tempat Tangan Kecil Digenggam",
+    "titleLine2": "dan Hati Besar Bertumbuh",
+    "description": "Daycare yang aman dan penuh kasih untuk usia 0–5 tahun — dengan pembelajaran berbasis bermain, makanan organik, dan akses kamera langsung agar Anda tak melewatkan momen.",
+    "cta": "Jadwalkan Kunjungan",
+    "ctaSecondary": "Lihat Program"
+  },
+  "badges": {
+    "small": "Kelompok Kecil",
+    "licensed": "Berizin",
+    "updates": "Update Harian"
+  },
+  "features": {
+    "subtitle": "Mengapa Yumnacare",
+    "title": "Dibangun Berdasarkan Hal yang Paling Penting Bagi Anda",
+    "items": [
+      {
+        "title": "Jadwal Fleksibel",
+        "description": "Jadwal fleksibel untuk memenuhi kebutuhan Anda."
+      },
+      {
+        "title": "Ijazah Setara Formal",
+        "description": "Dapatkan ijazah yang setara dengan pendidikan formal."
+      },
+      {
+        "title": "Kelompok Kecil",
+        "description": "Rasio pengasuh-anak yang rendah berarti anak Anda mendapat perhatian individual yang layak mereka dapatkan."
+      },
+      {
+        "title": "Lingkungan Tenang",
+        "description": "Ruang yang dirancang dengan penuh perhatian menggunakan bahan alami, pencahayaan lembut, dan ritme yang menghormati masa kecil."
+      },
+      {
+        "title": "Gratis Alat Tulis",
+        "description": "Gratis akses alat tulis untuk digunakan anak Anda selama berada di Yumnacare."
+      },
+      {
+        "title": "Gratis Wi-Fi",
+        "description": "Wi-Fi gratis untuk digunakan orang tua saat menunggu anak-anak mereka."
+      }
+    ]
+  },
+  "programs": {
+    "subtitle": "Program Kami",
+    "title": "Program untuk Setiap Kebutuhan",
+    "learnMore": "Selengkapnya",
+    "items": [
+      {
+        "title": "Daycare",
+        "subprograms": [
+          "Batita",
+          "Prasekolah"
+        ],
+        "description": "Lingkungan yang penuh kasih sayang yang dirancang untuk membina perkembangan anak usia dini melalui bermain dan eksplorasi yang dipandu.",
+        "tagline": "Awal yang lembut dan eksplorasi kreatif.",
+        "copy": "Program Daycare kami dirancang untuk kenyamanan, keamanan, dan penemuan sensorik. Kami menyalurkan energi balita ke dalam permainan yang bertujuan — membangun kosakata, mengembangkan keterampilan motorik, dan belajar menjalin pertemanan. Untuk prasekolah, kami memadukan pembelajaran terstruktur dengan permainan imajinatif, memastikan anak Anda siap masuk taman kanak-kanak.",
+        "highlights": [
+          "Lingkungan kaya bahasa dengan cerita dan lagu",
+          "Seni, bermain air, dan eksplorasi luar ruangan",
+          "Keterampilan sosial awal dan resolusi konflik lembut",
+          "Pondasi pra-membaca, menulis, dan matematika"
+        ]
+      },
+      {
+        "title": "Bimbingan Belajar",
+        "subprograms": [
+          "Privat",
+          "Grup"
+        ],
+        "description": "Dukungan akademis yang dipersonalisasi untuk membantu siswa membangun kepercayaan diri dan unggul dalam studi mereka.",
+        "tagline": "Memberdayakan siswa untuk mencapai potensi penuh mereka.",
+        "copy": "Program Bimbingan Belajar kami menawarkan dukungan khusus yang disesuaikan dengan gaya belajar setiap siswa. Baik melalui sesi privat satu lawan satu yang terfokus atau lingkungan kelompok yang kolaboratif, pendidik kami yang berpengalaman membantu memperjelas konsep kompleks, memperkuat keterampilan dasar, dan mengembangkan kebiasaan belajar yang efektif untuk kesuksesan akademis yang bertahan lama.",
+        "highlights": [
+          "Rencana pembelajaran yang dipersonalisasi",
+          "Bimbingan ahli dalam mata pelajaran inti",
+          "Pilihan jadwal yang fleksibel",
+          "Penilaian kemajuan rutin"
+        ]
+      },
+      {
+        "title": "PKBM",
+        "subprograms": [
+          "Paket A",
+          "Paket B",
+          "Paket C"
+        ],
+        "description": "Jalur sekolah alternatif yang menyediakan pendidikan fleksibel dan terakreditasi untuk semua tingkatan.",
+        "tagline": "Jalur fleksibel menuju kesetaraan pendidikan formal.",
+        "copy": "Pusat Kegiatan Belajar Masyarakat (PKBM) kami menawarkan jalur pendidikan non-formal yang setara dengan sekolah formal. Kami menyediakan lingkungan belajar yang terstruktur namun fleksibel untuk Paket A (SD), Paket B (SMP), dan Paket C (SMA). Program ini ideal bagi individu yang mencari rute alternatif untuk mendapatkan ijazah yang diakui sambil mengakomodasi keadaan kehidupan unik mereka.",
+        "highlights": [
+          "Terakreditasi oleh standar pendidikan nasional",
+          "Jadwal dan modul pembelajaran yang fleksibel",
+          "Komunitas yang suportif dan inklusif",
+          "Persiapan untuk ujian kesetaraan nasional"
+        ]
+      }
+    ]
+  },
+  "testimonials": {
+    "subtitle": "Testimoni",
+    "title": "Kata Orang Tua",
+    "items": [
+      {
+        "quote": "Yumnacare adalah berkah bagi keluarga kami. Putri saya bersemangat setiap pagi saat tahu dia akan pergi ke sana. Para pengasuh hangat, perhatian, dan benar-benar mencintai apa yang mereka lakukan.",
+        "name": "Sarah M.",
+        "childAge": "putri, usia 3 tahun"
+      },
+      {
+        "quote": "Akses kamera langsung memberi saya ketenangan saat minggu pertama kembali bekerja. Saya bisa melihat anak saya senang dan aktif — itu membuat perbedaan besar.",
+        "name": "James T.",
+        "childAge": "putra, usia 1 tahun"
+      },
+      {
+        "quote": "Saya gugup tentang daycare tapi Yumnacare membuat transisi menjadi mulus. Update dan foto harian sangat luar biasa. Saya merasa masih menjadi bagian dari harinya.",
+        "name": "Amina K.",
+        "childAge": "putri, usia 2 tahun"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Siap Melihat Yumnacare Langsung?",
+    "description": "Jadwalkan kunjungan dan temui pengasuh kami. Kami akan mengajak Anda melihat ruang kelas, menjawab setiap pertanyaan, dan menunjukkan dengan tepat di mana anak Anda akan bermain, makan, dan tumbuh.",
+    "button": "Jadwalkan Kunjungan"
+  },
+  "footer": {
+    "description": "Membuka pintu pendidikan yang selebar-lebarnya bagi siapa saja yang selama ini terpinggirkan dari sistem sekolah konvensional.",
+    "quickLinks": "Tautan Cepat",
+    "contact": "Kontak",
+    "rights": "Hak cipta dilindungi."
+  }
+}

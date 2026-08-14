@@ -1,0 +1,145 @@
+{
+  "nav": {
+    "home": "Home",
+    "programs": "Programs",
+    "about": "About",
+    "tuition": "Tuition",
+    "contact": "Contact",
+    "bookTour": "Book a Tour"
+  },
+  "hero": {
+    "badge": "• Now Enrolling",
+    "titleLine1": "Where Little Hands Are Held",
+    "titleLine2": "and Big Hearts Grow",
+    "description": "A safe, nurturing daycare for ages 0–5 — with play-based learning, organic meals, and live camera access so you never miss a moment.",
+    "cta": "Schedule a Visit",
+    "ctaSecondary": "View Programs"
+  },
+  "badges": {
+    "small": "Small Groups",
+    "licensed": "Licensed",
+    "updates": "Daily Updates"
+  },
+  "features": {
+    "subtitle": "Why Yumnacare",
+    "title": "Built Around What Matters Most to You",
+    "items": [
+      {
+        "title": "Flexible Scheduling",
+        "description": "Flexible scheduling to fit your needs."
+      },
+      {
+        "title": "Formal Equivalent Certificate",
+        "description": "Get a certificate equivalent to formal education."
+      },
+      {
+        "title": "Play-Based Curriculum",
+        "description": "Children learn best through play. Our curriculum develops cognitive, social, and motor skills through guided exploration."
+      },
+      {
+        "title": "Small Group Sizes",
+        "description": "Low caregiver-to-child ratios mean your child gets the individual attention they deserve."
+      },
+      {
+        "title": "Calm Environment",
+        "description": "Thoughtfully designed spaces with natural materials, soft lighting, and a rhythm that respects childhood."
+      },
+      {
+        "title": "Free Stationeries",
+        "description": "Free access to stationeries for your child to use during their time at Yumnacare."
+      },
+      {
+        "title": "Free Wi-Fi",
+        "description": "Free wifi for parents to use while waiting for their children."
+      }
+    ]
+  },
+  "programs": {
+    "subtitle": "Our Programs",
+    "title": "Programs for Every Needs",
+    "learnMore": "Learn More",
+    "items": [
+      {
+        "title": "Daycare",
+        "subprograms": [
+          "Toddler",
+          "Pre-school"
+        ],
+        "description": "A nurturing environment designed to foster early childhood development through guided play and exploration.",
+        "tagline": "Gentle beginnings and creative exploration.",
+        "copy": "Our Daycare program is designed for comfort, security, and sensory discovery. We channel toddlers' energy into purposeful play — building vocabulary, developing motor skills, and learning to navigate friendships. For preschool, we blend structured learning with imaginative play, ensuring your child is kindergarten ready.",
+        "highlights": [
+          "Language-rich environment with stories and songs",
+          "Art, water play, and outdoor exploration",
+          "Early social skills and gentle conflict resolution",
+          "Pre-reading, writing, and math foundations"
+        ]
+      },
+      {
+        "title": "Tutoring",
+        "subprograms": [
+          "Private",
+          "Group"
+        ],
+        "description": "Personalized academic support to help students build confidence and excel in their studies.",
+        "tagline": "Empowering students to reach their full potential.",
+        "copy": "Our Tutoring programs offer dedicated support tailored to each student's learning style. Whether through focused one-on-one private sessions or collaborative group environments, our experienced educators help clarify complex concepts, reinforce foundational skills, and develop effective study habits for lasting academic success.",
+        "highlights": [
+          "Personalized learning plans",
+          "Expert guidance in core subjects",
+          "Flexible scheduling options",
+          "Regular progress assessments"
+        ]
+      },
+      {
+        "title": "Community Learning (PKBM)",
+        "subprograms": [
+          "Paket A",
+          "Paket B",
+          "Paket C"
+        ],
+        "description": "Alternative schooling paths providing flexible, accredited education for all levels.",
+        "tagline": "Flexible paths to formal education equivalence.",
+        "copy": "Our Community Learning Center (PKBM) offers non-formal educational pathways equivalent to formal schooling. We provide structured yet flexible learning environments for Paket A (Elementary), Paket B (Junior High), and Paket C (Senior High). This program is ideal for individuals seeking an alternative route to earn recognized diplomas while accommodating their unique life circumstances.",
+        "highlights": [
+          "Accredited by national education standards",
+          "Flexible learning schedules and modules",
+          "Supportive and inclusive community",
+          "Preparation for national equivalence exams"
+        ]
+      }
+    ]
+  },
+  "testimonials": {
+    "subtitle": "Testimonials",
+    "title": "What Parents Say",
+    "items": [
+      {
+        "quote": "Yumnacare has been a blessing for our family. My daughter lights up every morning when she knows she's going. The caregivers are warm, attentive, and truly love what they do.",
+        "name": "Sarah M.",
+        "childAge": "daughter, age 3"
+      },
+      {
+        "quote": "The live camera access gave me so much peace of mind during my first week back at work. I could see my son happy and engaged — it made all the difference.",
+        "name": "James T.",
+        "childAge": "son, age 1"
+      },
+      {
+        "quote": "I was nervous about daycare but Yumnacare made the transition seamless. The daily updates and photos are wonderful. I feel like I'm still part of her day.",
+        "name": "Amina K.",
+        "childAge": "daughter, age 2"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to See Yumnacare in Person?",
+    "description": "Book a tour and meet our caregivers. We'll walk you through our classrooms, answer every question, and show you exactly where your child will play, eat, and grow.",
+    "button": "Book a Tour"
+  },
+  "footer": {
+    "description": "Opening educational doors wider for those who have been marginalized from the conventional school system.",
+    "quickLinks": "Quick Links",
+    "contact": "Contact",
+    "rights": "All rights reserved."
+  }
+}

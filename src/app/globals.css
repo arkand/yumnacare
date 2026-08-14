@@ -1,26 +1,148 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Brand / Primary */
+  --color-primary: #6C5CE7;          /* Primary Brand Violet */
+  --color-primary-hover: #5A4AD1;    /* Slightly darker for hover states */
+  --color-primary-light: #F0EEFF;    /* Ultra-light violet for card/section fills */
+  
+  /* Secondary / Tints */
+  --color-secondary: #A29BFE;        /* Lavender Glow for subtle accents */
+  
+  /* Supporting Accents (High Positivity & Contrast) */
+  --color-accent-coral: #FF7675;     /* Warm Coral for high-priority CTAs */
+  --color-accent-coral-hover: #E85D5C;
+  --color-accent-teal: #00CEC9;      /* Bright Teal for feature highlights & badges */
+  
+  /* Backgrounds & Neutrals */
+  --color-bg-canvas: #FFFDF8;        /* Soft Warm Cream global background */
+  --color-bg-surface: #FFFFFF;       /* Pure white for elevated cards */
+  
+  /* Typography & Readability */
+  --color-text-main: #1E1B4B;        /* Deep Midnight Indigo (High contrast text) */
+  --color-text-muted: #64748B;       /* Muted grey for subtext and captions */
+  
+  /* Borders & Shadows */
+  --color-border-soft: rgba(108, 92, 231, 0.15);
+  --shadow-soft: 0 10px 30px -5px rgba(108, 92, 231, 0.08);
+  --shadow-hover: 0 15px 35px -5px rgba(108, 92, 231, 0.15);
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
+  --color-primary: var(--color-primary);
+  --color-primary-hover: var(--color-primary-hover);
+  --color-primary-light: var(--color-primary-light);
+  --color-secondary: var(--color-secondary);
+  --color-accent-coral: var(--color-accent-coral);
+  --color-accent-coral-hover: var(--color-accent-coral-hover);
+  --color-accent-teal: var(--color-accent-teal);
+  
+  --color-canvas: var(--color-bg-canvas);
+  --color-surface: var(--color-bg-surface);
+  --color-main: var(--color-text-main);
+  --color-muted: var(--color-text-muted);
+  --color-border-soft: var(--color-border-soft);
+
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-serif: var(--font-playfair);
+
+  --shadow-soft: var(--shadow-soft);
+  --shadow-hover: var(--shadow-hover);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* Soft & Playful Design System */
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-bg-canvas);
+  color: var(--color-text-main);
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
+
+/* Playful Pattern Utilities */
+.pattern-dots {
+  background-image: radial-gradient(circle, var(--color-border-soft) 2px, transparent 2px);
+  background-size: 32px 32px;
+}
+
+.pattern-dots-dark {
+  background-image: radial-gradient(circle, rgba(255, 255, 255, 0.1) 2px, transparent 2px);
+  background-size: 32px 32px;
+}
+
+.pattern-waves {
+  background-image: repeating-radial-gradient(
+    circle at 0 0,
+    transparent 0,
+    var(--color-bg-canvas) 16px,
+    var(--color-primary-light) 17px,
+    var(--color-primary-light) 18px,
+    transparent 19px,
+    transparent 32px
+  );
+  background-color: var(--color-bg-canvas);
+}
+
+/* Soft Shapes */
+.shape-blob-1 {
+  border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%;
+}
+
+.shape-blob-2 {
+  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+}
+
+/* Structured spacing scale (based on 8px grid) */
+.section-padding {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+@media (min-width: 768px) {
+  .section-padding {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+/* Playful Card Style */
+.card-playful {
+  background: var(--color-bg-surface);
+  border: 1px solid var(--color-border-soft);
+  border-radius: 1.5rem;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: var(--shadow-soft);
+}
+
+.card-playful:hover {
+  border-color: var(--color-primary);
+  box-shadow: var(--shadow-hover);
+  transform: translateY(-4px) scale(1.01);
+}
+
+/* Playful accent line */
+.accent-line::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: var(--color-accent-coral);
+  border-radius: 2px;
+  margin-top: 1rem;
+}
+
+.accent-line-center::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: var(--color-accent-coral);
+  border-radius: 2px;
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
 }
