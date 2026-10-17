@@ -9,9 +9,9 @@ export const metadata: Metadata = {
 };
 
 const pricingPlans = [
-  { name: "Infant", ages: "0–12 months", fullTime: "$1,800", partTime: "$1,200", popular: false },
-  { name: "Toddler", ages: "1–3 years", fullTime: "$1,500", partTime: "$1,000", popular: true },
-  { name: "Preschool", ages: "3–5 years", fullTime: "$1,300", partTime: "$900", popular: false },
+  { name: "Infant", ages: "0–12 months", fullTime: "Rp2,5 jt", partTime: "Rp1,75 jt", popular: false },
+  { name: "Toddler", ages: "1–3 years", fullTime: "Rp2,3 jt", partTime: "Rp1,6 jt", popular: true },
+  { name: "Preschool", ages: "3–5 years", fullTime: "Rp2 jt", partTime: "Rp1,4 jt", popular: false },
 ];
 
 const included = [
@@ -121,11 +121,11 @@ export default function TuitionPage() {
           <div className="mt-8 grid gap-4 sm:grid-cols-2">
             <div className="border border-border bg-surface p-6 text-center">
               <p className="text-[10px] font-semibold uppercase tracking-widest text-warm-gray">Registration Fee (one-time)</p>
-              <p className="mt-2 text-2xl font-bold text-dark">$150</p>
+              <p className="mt-2 text-2xl font-bold text-dark">Rp750 rb</p>
             </div>
             <div className="border border-border bg-surface p-6 text-center">
               <p className="text-[10px] font-semibold uppercase tracking-widest text-warm-gray">Annual Activity Fee</p>
-              <p className="mt-2 text-2xl font-bold text-dark">$200</p>
+              <p className="mt-2 text-2xl font-bold text-dark">Rp500 rb</p>
             </div>
           </div>
         </div>
